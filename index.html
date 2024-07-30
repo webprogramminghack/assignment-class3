@@ -32,123 +32,157 @@
       </div>
     </header>
     <main>
-      <section class="contact">
-        <div class="container">
-          <div class="contact-wrapper">
-            <div class="contact-header">
-              <p class="subtitle">Contact us</p>
-              <h2 class="title">Get in touch</h2>
-              <p class="description">
-                We’d love to hear from you. Please fill out this form.
-              </p>
-            </div>
-            <div class="contact-form">
-              <form action="">
-                <div class="contact-inputs">
-                  <div class="input-pair">
-                    <div class="input-group" class="input-group-first-name">
-                      <label for="first-name">Name</label>
-                      <input
-                        type="text"
-                        id="first-name"
-                        name="firstName"
-                        placeholder="First name"
-                      />
-                    </div>
-                    <div class="input-group" class="input-group-last-name">
-                      <label for="last-name">Last name</label>
-                      <input
-                        type="text"
-                        id="last-name"
-                        name="lastName"
-                        placeholder="Last name"
-                      />
-                    </div>
-                  </div>
-
-                  <div class="input-group" class="input-group-email">
-                    <label for="email">Email</label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      placeholder="Email"
-                    />
-                  </div>
-
-                  <!-- phone number -->
-                  <div class="input-group" class="input-group-phone-number">
-                    <label for="phone">Phone number</label>
-                    <input
-                      type="tel"
-                      id="phone"
-                      name="phone"
-                      placeholder="Phone number"
-                    />
-                  </div>
-
-                  <!-- message text area -->
-                  <div class="input-group" class="input-group-message">
-                    <label for="message">Message</label>
-                    <textarea
-                      name="message"
-                      id="message"
-                      name="message"
-                      placeholder="Leave us a message..."
-                    ></textarea>
-                  </div>
-
-                  <div class="checkbox-container">
-                    <input
-                      type="checkbox"
-                      id="privacy-policy"
-                      name="privacyPolicy"
-                    />
-                    <label for="privacy-policy"
-                      >You agree to our
-                      <a href="#">friendly privacy policy</a>.</label
-                    >
-                  </div>
-                </div>
-                <button type="submit" class="btn">Send message</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <section class="cta">
-        <div class="container">
-          <div class="cta-header">
-            <h2 class="title">No long-term contracts. No catches. Simple.</h2>
+      <section class="pricing">
+        <div class="pricing-header">
+          <!-- We place the container here so that the background is not constrained by the container -->
+          <div class="container">
+            <p class="subtitle">Pricing</p>
+            <h2 class="title">Pricing plans</h2>
             <p class="description">
-              Start your 30-day free trial. Cancel anytime.
+              Simple, transparent pricing that grows with you. Try any plan free
+              for 30 days.
             </p>
           </div>
+        </div>
 
-          <div class="cta-actions">
-            <a href="#" class="btn btn-secondary">
-              <img
-                src="./assets/svg/icon-play.svg"
-                alt="play icon"
-                class="icon-play"
-              />
-              <span>View demo</span>
-            </a>
-            <a href="#" class="btn btn-primary">Get Started</a>
+        <div class="pricing-cards">
+          <div class="container">
+            <!-- card 1 -->
+            <div class="card">
+              <div class="card-header">
+                <div class="badge-container">
+                  <div class="badge">
+                    <!-- dot-decoration-wrapper is outer circle -->
+                    <div class="dot-decoration-wrapper">
+                      <!-- .dot-decoration is the inner circle -->
+                      <div class="dot-decoration"></div>
+                    </div>
+                    <span class="badge-info">Basic plan</span>
+                  </div>
+                </div>
+                <h2 class="price">$10/mth</h2>
+                <p class="description">Our most popular plan.</p>
+              </div>
+
+              <div class="card-features">
+                <ul>
+                  <li>
+                    <img src="./assets/svg/icon-check.svg" alt="check icon" />
+                    <p>Access to all basic features</p>
+                  </li>
+                  <li>
+                    <img src="./assets/svg/icon-check.svg" alt="check icon" />
+                    <p>Basic reporting and analytics</p>
+                  </li>
+                  <li>
+                    <img src="./assets/svg/icon-check.svg" alt="check icon" />
+                    <p>Up to 10 individual users</p>
+                  </li>
+                  <li>
+                    <img src="./assets/svg/icon-check.svg" alt="check icon" />
+                    <p>20GB individual data each user</p>
+                  </li>
+                  <li>
+                    <img src="./assets/svg/icon-check.svg" alt="check icon" />
+                    <p>Basic chat and email support</p>
+                  </li>
+                </ul>
+              </div>
+
+              <a href="#" class="btn">Get started</a>
+            </div>
+
+            <!-- card 2 -->
+            <div class="card">
+              <div class="card-header">
+                <div class="badge-container">
+                  <div class="badge">
+                    <div class="dot-decoration-wrapper">
+                      <div class="dot-decoration"></div>
+                    </div>
+                    <span class="badge-info">Business plan</span>
+                  </div>
+                  <span class="badge-additional-info">Most popular</span>
+                </div>
+                <h2 class="price">$20/mth</h2>
+                <p class="description">Growing teams up to 20 users.</p>
+              </div>
+
+              <div class="card-features">
+                <ul>
+                  <li>
+                    <img src="./assets/svg/icon-check.svg" alt="check icon" />
+                    <p>200+ integrations</p>
+                  </li>
+                  <li>
+                    <img src="./assets/svg/icon-check.svg" alt="check icon" />
+                    <p>Advanced reporting and analytics</p>
+                  </li>
+                  <li>
+                    <img src="./assets/svg/icon-check.svg" alt="check icon" />
+                    <p>Up to 20 individual users</p>
+                  </li>
+                  <li>
+                    <img src="./assets/svg/icon-check.svg" alt="check icon" />
+                    <p>40GB individual data each user</p>
+                  </li>
+                  <li>
+                    <img src="./assets/svg/icon-check.svg" alt="check icon" />
+                    <p>Priority chat and email support</p>
+                  </li>
+                </ul>
+              </div>
+
+              <a href="#" class="btn">Get started</a>
+            </div>
+
+            <!-- card 3 -->
+            <div class="card">
+              <div class="card-header">
+                <div class="badge-container">
+                  <div class="badge">
+                    <div class="dot-decoration-wrapper">
+                      <div class="dot-decoration"></div>
+                    </div>
+                    <span class="badge-info">Enterprise plan</span>
+                  </div>
+                </div>
+                <h2 class="price">$40/mth</h2>
+                <p class="description">Advanced features + unlimited users.</p>
+              </div>
+
+              <div class="card-features">
+                <ul>
+                  <li>
+                    <img src="./assets/svg/icon-check.svg" alt="check icon" />
+                    <p>Advanced custom fields</p>
+                  </li>
+                  <li>
+                    <img src="./assets/svg/icon-check.svg" alt="check icon" />
+                    <p>Audit log and data history</p>
+                  </li>
+                  <li>
+                    <img src="./assets/svg/icon-check.svg" alt="check icon" />
+                    <p>Unlimited individual users</p>
+                  </li>
+                  <li>
+                    <img src="./assets/svg/icon-check.svg" alt="check icon" />
+                    <p>Unlimited individual data</p>
+                  </li>
+                  <li>
+                    <img src="./assets/svg/icon-check.svg" alt="check icon" />
+                    <p>Personalized+priority service</p>
+                  </li>
+                </ul>
+              </div>
+
+              <a href="#" class="btn">Get started</a>
+            </div>
           </div>
         </div>
+        <!-- Closing pricing-cards -->
       </section>
-
-      <section class="copyright">
-        <div class="container">
-          <p class="copyright-text">
-            © 2024 Web Programming Hack. All rights reserved.
-          </p>
-        </div>
-      </section>
-    </footer>
+      <!-- Closing pricing section -->
+    </main>
   </body>
 </html>
