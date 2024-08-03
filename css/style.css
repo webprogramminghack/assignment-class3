@@ -1,0 +1,227 @@
+header {
+  background-color: #53389E;
+}
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.125rem;
+  padding-bottom: 1.125rem;
+  align-items: center;
+}
+
+.logo-nav-wrapper {
+  display: flex;
+  width: 29.625rem;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+  gap: 2.5rem;
+}
+
+.logo {
+  display: flex;
+  height: 2rem;
+  padding-left: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+
+a {
+  width: 20rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.header-action {
+  display: flex;
+  gap: 0.375rem;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+  align-items: center;
+}
+
+.btn-secondary {
+  padding: 0.625rem 1rem 0.625rem 1rem;
+}
+
+.btn-primary {
+  background-color: #7F56D9;
+  padding: 0.625rem 1rem 0.625rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.pricing-header {
+  background-color: #53389E;
+  height: 25.375rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #E9D7FE;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 6rem;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 600;
+  color:#fff;
+  letter-spacing: -0.02em;
+  margin-top: 0.75rem;
+}
+
+.pricing-header .description {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  text-align: center;
+  color: #E9D7FE;
+  margin-top: 1.5rem;
+}
+
+.pricing-cards .container{
+  display: flex;
+  gap: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 10rem;
+  position: relative;
+  margin-top: -6rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  width: 24rem;
+  height: 35.875rem;
+  border: solid 0.0625rem #E4E7EC;
+  border-radius: 1rem; 
+}
+
+.dot-decoration-wrapper {
+  display: flex;
+  background-color: #F4EBFF;
+  width: 0.5625rem;
+  height: 0.5625rem;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot-decoration {
+  background-color: #9E77ED;
+  width: 0.375rem;
+  height: 0.375rem;
+  border-radius: 50%;
+}
+
+.badge-info {
+  color: #344054;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.badge-additional-info {
+  color: #344054;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.badge-container {
+  margin-top: 2rem;
+  display: flex;
+  border: solid 0.0625rem #D0D5DD;
+  padding: 0.25rem;
+  border-radius: 0.625rem;
+  align-items: center;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  border: solid 0.0625rem #D0D5DD;
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  border-radius: 0.375rem;
+}
+
+.price {
+  font-size: 3rem;
+  font-weight: 600;
+  color:#101828;
+  letter-spacing:-0.02em;
+  line-height:3.75rem;
+  margin-top: 1.5rem;
+}
+
+.card-header .description {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #475467;
+  line-height:1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.card-features {
+  width: 20rem;
+  border-top: 1px 
+  #E4E7EC solid;
+  border-bottom: 1px 
+  #E4E7EC solid;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.card-features ul{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-features ul li{
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+}
+
+.card a {
+  margin: 2rem auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7F56D9;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0.5rem;
+}
