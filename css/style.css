@@ -55,8 +55,8 @@ header .container a {
 .title {
   font-size: 3rem;
   font-weight: 600;
-  margin-top: 12;
-  margin-bottom: 24;
+  margin-top: 12px;
+  margin-bottom: 24px;
 }
 .description {
   font-size: 20px;
