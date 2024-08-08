@@ -92,7 +92,7 @@ header .container a {
   height: 1px;
   background-color: #e4e7ec;
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   left: 32px;
 }
 .badge-container {
@@ -185,7 +185,7 @@ header .container a {
   height: 1px;
   background-color: #e4e7ec;
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
 }
 
 .card-features ~ .btn{
