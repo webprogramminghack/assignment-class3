@@ -1,0 +1,26 @@
+header {
+  background-color: #53389E;  
+  font-size: 10px;
+  font-weight: bold;
+  padding:10px;
+  }
+.container ul{
+  display: flex;
+  text-align: left;
+  } 
+.container a {
+  color: #FFFFFF;
+}
+.pricing-cards {
+  display: flex;
+  margin:auto;
+  border:1px solid gray;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+}
+main {
+  background-color:#53389E;
+}
+main. section div. badge {
+  display:flex;
+}
