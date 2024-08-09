@@ -182,6 +182,8 @@ header .header-actions .btn {
   letter-spacing: -0.02em;
   color: #101828;
   margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .card .card-header .description {
@@ -202,7 +204,6 @@ header .header-actions .btn {
   padding: 2rem 0;
   border-top: 1px solid #E4E7EC;
   border-bottom: 1px solid #E4E7EC;
-  margin-bottom: 1rem;
 }
 
 .card .btn {
@@ -215,6 +216,7 @@ header .header-actions .btn {
   font-weight: 600;
   text-align: center;
   display: block;
+  margin: 1rem;
 }
 
 .card-features ul {
