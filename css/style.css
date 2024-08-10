@@ -267,3 +267,14 @@ footer .copyright .copyright-text {
   line-height: 1.5rem;
   color: #d6bbfb;
 }
+
+
+/* .input-group-phone-number input[type="tel"]::before {
+  content: "+1";
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  color: #000;
+} */
