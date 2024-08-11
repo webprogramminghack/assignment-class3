@@ -165,6 +165,8 @@ header .header-actions .btn-primary {
 }
 
 .card-features {
+  border-top: 1px solid #E4E7EC;
+  border-bottom: 1px solid #E4E7EC;
   margin-top: 2rem;
   padding: 2.0625rem 0;
 }
